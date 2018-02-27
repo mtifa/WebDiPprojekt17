@@ -1,0 +1,905 @@
+/* 
+    Created on : Mar 7, 2017, 5:31:39 PM
+    Author     : grupa_4
+*/
+
+.greske[] {
+    color: red;
+	width: 10px;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+	float: left;
+}
+.zelena {
+    background-color: green;
+    color: white;
+}
+*{
+	box-sizing: border-box;
+}
+
+body {
+    background-color:#e3e3e3;
+    font-family: Cambria;
+    margin-left:190px;
+    margin-right:190px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: solid;
+    border-color: #048998;
+    position: relative;
+}
+#logo {
+	height: 40px;
+}
+h1 {
+    color:#048998;
+}
+#nijebitno {
+    color:white;
+}
+
+#formanp {
+	width:100%;
+}
+
+#formanp div label{	
+	float:left;
+	width:200px;
+	}
+
+#formanp div input:not([type]), input[type="text"], [type=password], [type=email], [type=date], [type=time], [type=number], [type=range], [input=radio] {
+	float: left !important;
+}
+
+#forma2 div label{	
+	float:left;
+	width:200px;
+	}
+
+#forma2 div input:not([type]), input[type="text"], [type=password], [type=email], [type=date], [type=time], [type=number], [type=range], [input=radio] {
+	float: left !important;
+}
+
+#forma3 div label{	
+	float:left;
+	width:200px;
+	}
+
+#forma3 div input:not([type]), input[type="text"], [type=password], [type=email], [type=date], [type=time], [type=number], [type=range], [input=radio] {
+	float: left !important;
+}
+input:not([type]), input[type="text"], [type=password], [type=email], [type=date], [type=time], [type=number], [type=range], [input=radio] {
+	float: left !important;
+}
+
+#labimp1 {
+	
+}
+#labimp2 {
+	
+}
+#labimp3 {
+	
+}
+#korime {
+	float: right;
+}
+#lozina {
+	float: right;
+}
+
+select {
+	float: right;
+}
+
+.bd {
+	overflow: hidden;
+	position: relative;
+	box-sizing: border-box;
+}
+/*Header*/
+.headerizgled {
+    background: #048998;
+    width:100%;
+    float: left;
+}
+.headernaslov {
+    background: #3BB4C1;
+    color: #FFF;
+    padding: 12px;
+    text-align: center;
+    margin:0;
+    height: 60px;
+    border-bottom: solid;
+    border-bottom-color: #F6F5F5;
+}
+.h3naslov {
+	float: left;
+	width: 60%;
+	padding: 0;
+    height: 40px;
+    font-size: larger;
+}
+.tipkorisnika {
+	width: 40%;
+	text-align: center;
+	color: #9B410E;
+	border: medium dashed #048998;
+    float: right;
+    height: 40px;
+	/*padding: 5px;*/
+}
+/*Navigacija*/
+nav {
+	position: relative;
+	padding: 5px;
+}
+aside {
+    float:left;
+    width: 20%;
+    background: #3BB4C1;
+    color: #E3E3E3;
+	box-sizing: border-box;
+	position: absolute;
+	height: 100%;
+	border-right: solid;
+    border-right-color: #F6F5F5;
+}
+.ulizgled {
+    list-style: none;
+    margin-top: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+    padding: 0;
+    background-color: #3BB4C1;
+    margin-right: 0;
+}
+
+li a {
+    display: block;
+    color: #048998;
+    padding: 8px 16px;
+    text-decoration: none;
+	overflow: hidden;
+	
+}
+li a.active {
+    background-color: #E3E3E3;
+    color: #048998;
+    border-top: dashed;
+    border-top-color: #E3E3E3;
+    border-bottom: dashed;
+}
+
+li a:hover:not(.active) {
+    background-color: #E3E3E3;
+    color: #048998;
+}
+
+nav > ulizgled li a:hover {
+    color: white;
+}
+
+.a {
+    /*display: block;*/
+    color: #F6F5F5;
+    text-align: center;
+    text-decoration: none;
+}
+
+#logofig {
+    color: #F6F5F5;
+    font-size: 10px;
+	text-align: justify;
+}
+
+/*Section*/
+p {
+	text-align: justify;
+}
+.section_glavni {
+    background: #E3E3E3;
+    margin: 0;
+    float:right;
+    width: 75%;
+    min-height: 300px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 0px;
+	box-sizing: border-box;
+}
+
+#section_poppro {
+    background: #E3E3E3;
+    margin: 0;
+    float:right;
+    width: 78%;
+    min-height: 300px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 0px;
+}
+
+
+
+form {
+	width: 400px;
+	white-space: nowrap;
+	position: relative;
+}
+
+
+
+#forma2 {
+	position: relative;
+	
+}
+
+#kategorija {
+
+	float: left;
+	overflow: auto;
+}
+
+
+
+.txtarea {
+	margin-left: 0px;
+	margin-right: 5px;
+	overflow: auto;
+	float: left;
+	width: 50%;
+}
+
+#podaciost {
+    width: 300px;
+    float: left;
+}
+#imgsaind {
+	display: inline-block;
+    
+	width: 100px;
+}
+.inpcl {
+	align-content: center;
+}
+#opis{
+	width: 50%;
+}
+
+.tabela {
+	border-radius: 20px;
+	table-layout: auto;
+	border-collapse: separate;
+	border-color: black;
+}
+table, td, th { border: 1px solid gray }
+/*Footer*/
+.footerizgled {
+    background: #048998;
+    color: #F6F5F5;
+    padding: 10px;
+    clear:both;
+    box-sizing: border-box;
+	border-top: solid;
+	border-top-color: #F6F5F5;
+}
+
+.figfooter {
+    display: inline-block;
+    float: right;
+}
+.figsect {
+	display: inline-block;
+    float: left;
+	width: 110px;
+	
+}
+
+figure figcaption {
+    text-align: center;
+	font-size: smaller;
+}
+
+.figcst {
+    width: 150px;
+}
+
+.figanim {
+	display:inline-flex;
+	
+}
+.sjena {
+    box-shadow: 10px 10px;
+}
+
+img:hover{
+	z-index:2;
+}
+#animsl {
+	height: 300px;
+	box-sizing: border-box;
+	overflow:hidden; 
+	display: inline-block;
+}
+#anim1 {
+	position: absolute;
+	height: 200px;
+}
+/*Responsive design*/
+@media screen and (max-width: 480px) {
+	*{
+	box-sizing: border-box;
+}
+
+			body {
+				background-color:#e3e3e3;
+				font-family: Arial;
+				margin:0;
+				border: solid;
+				border-color: #048998;
+				position: relative;
+				font-size: 8px;
+			}
+			h1 {
+				color:#048998;
+			}
+			#nijebitno {
+				color:white;
+			}
+			.bd {
+				overflow: hidden;
+				position: relative;
+				box-sizing: border-box;
+			}
+			/*Header*/
+			.headerizgled {
+				background: #048998;
+				width:100%;
+				float: left;
+			}
+			.headernaslov {
+				background: #3BB4C1;
+				color: #F6F5F5;
+				padding: 12px;
+				text-align: center;
+				margin:0;
+				border-bottom: solid;
+				border-bottom-color: #F6F5F5;
+			}		
+			
+			#logo {
+				width: 200px;
+				height: 20px;
+			}
+	
+			/*Navigacija*/
+			nav {
+				position: relative;
+				
+			}
+			aside {
+				width: 100%;
+				background: #3BB4C1;
+				color: #E3E3E3;
+				box-sizing: border-box;
+				position: relative;
+				border-bottom: solid;
+				border-bottom-color: #F6F5F5;
+				border-left: solid;
+				border-left-color: #F6F5F5; 
+				
+			}
+			.ulizgled {
+				list-style: none;
+				margin-top: 0;
+				margin-left: 0;
+				margin-bottom: 0;
+				padding: 0;
+				background-color: #3BB4C1;
+				margin-right: 0;
+			}
+
+			li a {
+				display: block;
+				color: #048998;
+				padding: 8px 16px;
+				text-decoration: none;
+				overflow: hidden;
+
+			}
+			li a.active {
+				background-color: #E3E3E3;
+				color: #048998;
+				border-top: dashed;
+				border-top-color: #E3E3E3;
+				border-bottom: dashed;
+			}
+
+			li a:hover:not(.active) {
+				background-color: #E3E3E3;
+				color: #048998;
+			}
+
+			nav > ulizgled li a:hover {
+				color: white;
+			}
+
+			.a {
+				/*display: block;*/
+				color: #F6F5F5;
+				text-align: center;
+				text-decoration: none;
+			}
+
+			#logofig {
+				color: #F6F5F5;
+				
+				text-align: justify;
+			}
+			
+			/*Section*/
+				label {
+					font-size: 8px;
+				}
+				h2 {
+					
+				}
+				p {
+					text-align: justify;
+					font-size: 8px;
+				}
+				.section_glavni {
+					background: #E3E3E3;
+					margin: 0;
+					width: 100%;
+					padding-top: 10px;
+					padding-bottom: 10px;
+					padding-right: 15px;
+					padding-left: 15px;
+				}
+					
+				#section_poppro {
+					background: #E3E3E3;
+					margin: 0;
+					float:right;
+					width: 95%;
+					min-height: 300px;
+					padding-top: 10px;
+					padding-bottom: 10px;
+				}
+
+				form {
+					width: 400px;
+					white-space: nowrap;
+					position: relative;
+				}
+				
+				#forma2 {
+					position: relative;
+					width: 300px;
+				}
+				#forma3 {
+					width: 300px;
+				}
+				#formanp {
+					width:100%;
+				}
+
+				#formanp div label{	
+					float:left;
+					width:200px;
+				}
+
+				#formanp div input:not([type]), input[type="text"], [type=password], [type=email], [type=date], [type=time], [type=number], [type=range], [input=radio] {
+					float: left !important;
+				}
+	
+				
+				#forma2 div label{	
+					float:left;
+					width:200px;
+					}
+
+				#forma2 div input:not([type]), input[type="text"], [type=password], [type=email], [type=date], [type=time], [type=number], [type=range], [input=radio] {
+					float: left !important;
+				}
+
+				#forma3 div label{	
+					float:left;
+					width:200px;
+					}
+
+				#forma3 div input:not([type]), input[type="text"], [type=password], [type=email], [type=date], [type=time], [type=number], [type=range], [input=radio] {
+					float: left !important;
+				}
+	
+				input:not([type]), input[type="text"], [type=password], [type=email], [type=date], [type=time], [type=number], [type=range], [input=radio] {
+					float: left !important;
+				}
+				#kategorija {
+					
+					float: left;
+					overflow: auto;
+				}
+
+
+				
+					.txtarea {
+					margin-left: 0px;
+					margin-right: 5px;
+					overflow: auto;
+					float: left;
+					width: 50%;
+				}
+
+				#podaciost {
+					width: 400px;
+					float: left;
+				}
+				#imgsaind {
+					display: none;
+					width: 100px;
+					
+				}
+				.inpcl {
+					align-content: center;
+				}
+				#opis{
+					width: 50%;
+				}
+				table {
+					border-collapse: collapse;
+					table-layout: auto;
+				}
+
+				/*Footer*/
+				.footerizgled {
+					background: #048998;
+					color: #F6F5F5;
+					padding: 10px;
+					clear: both;
+					box-sizing: border-box;
+					border-top: solid;
+					border-top-color: #F6F5F5;
+				}
+
+				.figfooter {
+					display: inline-block;
+					float: right;
+					
+				}
+				.figsect {
+					display: inline-block;
+					float: left;
+					width: 110px;
+				}
+
+				figure figcaption {
+					padding-top: 3px;
+					text-align: center;
+					
+				}
+
+				.figcst {
+					width: 150px;
+				}
+				.sjena {
+					box-shadow: 10px 10px;
+				}
+
+				
+				img:hover{
+					z-index:2;
+				}
+				#animsl {
+					height: 250px;
+					display: none;
+				}
+				select {
+					float: right;
+				}
+	.tabela {
+		border-radius: 10px;
+	}
+	
+	.tabela tr > *:nth-child(7),
+	.tabela tr > *:nth-child(6), 
+	.tabela tr > *:nth-child(5), 
+	.tabela tr > *:nth-child(4) {
+		display:none;
+	}
+	
+}
+@media screen and (max-width: 1024px) and (min-width: 480px) {
+    *{
+	box-sizing: border-box;
+}
+	body {
+        margin-top:0;
+		margin-bottom: 0;
+		margin-left: 0;
+		margin-right: 0;
+		font-family: Georgia;
+		font-size: 12px;
+    }
+	
+	#logo {
+	height: 40px;
+}
+h1 {
+    color:#048998;
+}
+#nijebitno {
+    color:white;
+}
+
+
+	#formanp {
+	width:100%;
+}
+
+#formanp div label{	
+	float:left;
+	width:200px;
+	}
+
+#formanp div input:not([type]), input[type="text"], [type=password], [type=email], [type=date], [type=time], [type=number], [type=range], [input=radio] {
+	float: left !important;
+}
+
+
+#forma2 div label{	
+	float:left;
+	width:200px;
+	}
+
+#forma2 div input:not([type]), input[type="text"], [type=password], [type=email], [type=date], [type=time], [type=number], [type=range], [input=radio] {
+	float: left !important;
+}
+
+#forma3 div label{	
+	float:left;
+	width:200px;
+	}
+
+#forma3 div input:not([type]), input[type="text"], [type=password], [type=email], [type=date], [type=time], [type=number], [type=range], [input=radio] {
+	float: left !important;
+}
+
+input:not([type]), input[type="text"], [type=password], [type=email], [type=date], [type=time], [type=number], [type=range], [input=radio] {
+	float: left !important;
+}
+	#forma input {
+		float:right;
+	}
+
+.bd {
+	overflow: hidden;
+	position: relative;
+	box-sizing: border-box;
+}
+/*Header*/
+.headerizgled {
+    background: #048998;
+    width:100%;
+    float: left;
+}
+.headernaslov {
+    background: #3BB4C1;
+    color: #F6F5F5;
+    padding: 12px;
+    text-align: center;
+    margin:0;
+    border-bottom: solid;
+    border-bottom-color: #F6F5F5;
+}
+/*Navigacija*/
+nav {
+	position: relative;
+	padding: 5px;
+}
+aside {
+    float:left;
+    width: 20%;
+    background: #3BB4C1;
+    color: #E3E3E3;
+	box-sizing: border-box;
+	position: absolute;
+	height: 100%;
+	border-right: solid;
+    border-right-color: #F6F5F5;
+}
+.ulizgled {
+    list-style: none;
+    margin-top: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+    padding: 0;
+    background-color: #3BB4C1;
+    margin-right: 0;
+}
+
+li a {
+    display: block;
+    color: #048998;
+    padding: 8px 16px;
+    text-decoration: none;
+	overflow: hidden;
+	
+}
+li a.active {
+    background-color: #E3E3E3;
+    color: #048998;
+    border-top: dashed;
+	border-top-color: #3BB4C1;
+    border-bottom: dashed;
+}
+
+li a:hover:not(.active) {
+    background-color: #E3E3E3;
+    color: #048998;
+}
+
+nav > ulizgled li a:hover {
+    color: white;
+}
+
+.a {
+    /*display: block;*/
+    color: #F6F5F5;
+    text-align: center;
+    text-decoration: none;
+}
+
+#logofig {
+    color: #F6F5F5;
+    font-size: 10px;
+	text-align: justify;
+}
+
+/*Section*/
+p {
+	text-align: justify;
+}
+.section_glavni {
+    background: #E3E3E3;
+    margin: 0;
+    float:right;
+    width: 75%;
+    min-height: 300px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 0px;
+}
+
+form {
+	width: 400px;
+	white-space: nowrap;
+	position: relative;
+}
+
+#kategorija {
+	float: left;
+	overflow: auto;
+}
+
+	intput {
+		
+	}
+
+.txtarea {
+	margin-left: 0px;
+	margin-right: 5px;
+	overflow: auto;
+	float: left;
+	width: 50%;
+}
+
+#podaciost {
+    width: 300px;
+    float: left;
+}
+#imgsaind {
+	display: inline-block;
+    
+	width: 100px;
+}
+.inpcl {
+	align-content: center;
+}
+#opis{
+	width: 50%;
+}
+
+
+.tabela {
+	border-radius: 20px;
+	table-layout: auto;
+	border-collapse: separate;
+	border-color: black;
+}
+
+/*Footer*/
+.footerizgled {
+    background: #048998;
+    color: #F6F5F5;
+    padding: 10px;
+    clear:both;
+    box-sizing: border-box;
+	border-top: solid;
+	border-top-color: #F6F5F5;
+}
+
+.figfooter {
+    display: inline-block;
+    float: right;
+}
+.figsect {
+	display: inline-block;
+    float: left;
+	width: 110px;
+	
+}
+
+figure figcaption {
+    text-align: center;
+	font-size: smaller;
+}
+
+.figcst {
+    width: 150px;
+}
+
+.figanim {
+	display:inline-flex;
+	
+}
+.sjena {
+    box-shadow: 10px 10px;
+}
+
+img:hover{
+	z-index:2;
+}
+#animsl {
+	height: 300px;
+	box-sizing: border-box;
+	overflow:hidden; 
+	display: none;
+}
+select {
+	float: right;
+}	
+.tabela tr > *:nth-child(7),
+.tabela tr > *:nth-child(6),
+.tabela tr > *:nth-child(5),
+.tabela tr > *:nth-child(4)
+{
+	display:none;
+}
+}
+@media screen and (max-width: 1200px) and (min-width: 1024px) { 
+	.tabela tr > *:nth-child(7),
+	.tabela tr > *:nth-child(6)
+	{
+		display:none;
+	}
+}
+@media screen and (max-width: 340px) {
+	#forma2 {
+		display: none;
+	}
+	#forma3 {
+		display: none;
+	}
+	.frmreg {
+		display: none;
+	}
+}

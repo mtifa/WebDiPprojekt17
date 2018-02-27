@@ -1,0 +1,6 @@
+AuthName 'WebDiP projekt'
+AuthType Basic
+AuthUserFile /var/www/webdip.barka.foi.hr/2016_projekti/WebDiP2016x070/privatno/popis_korisnika.txt
+
+
+Require valid-user
