@@ -1,10 +1,10 @@
 <?php
 
 class Baza {
-    const server = "localhost";
-    const korisnik = "WebDiP2016x070";
-    const lozinka = "admin_SqeQ";
-    const baza = "WebDiP2016x070";
+    const server = "";
+    const korisnik = "";
+    const lozinka = "";
+    const baza = "";
 
     public $captchasitekey;
     public $captchasecretkey;
